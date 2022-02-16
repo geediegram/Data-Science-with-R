@@ -1,0 +1,124 @@
+---
+title: "Inferential Statistics"
+author: "Geediegram"
+date: "07/12/2021"
+output: pdf_document
+---
+
+```{r}
+dt <- read.csv("~/Documents/R/house.csv", header=T)
+dt
+```
+
+```{r}
+t.test(dt$Price, mu=3000)
+t.test
+```
+```{r}
+ct <- read.csv("~/Documents/R/cancer.csv", header=T)
+ct
+```
+
+```{r}
+t.test(ct$area_se~ct$diagnosis, alternative="two.sided")
+t.test
+```
+```{r}
+#Weight of participants before treatment
+x <- c(239, 170, 182, 143, 141, 170, 160, 154, 185, 130)
+
+#Weight of participants after treatment
+y <- c(362, 343, 330, 340, 314, 567, 292, 439, 312, 292)
+
+paired_1 <- t.test(x,y, paired=TRUE)
+paired_1
+```
+```{r}
+#Importing the csv data
+data <- read.csv("~/Documents/R/master.csv")
+#Count of Rows and Columns
+dim(data)
+```
+```{r}
+#View top 10 rows of the dataset
+head(data,10)
+```
+```{r}
+#Make a table and calculate the proportion of experience of employees
+ct <- table(data$age, data$suicides.100k.pop)
+#Calculating the chi-squ test
+chisq.test(ct)
+```
+```{r}
+bc <- read.csv("~/Documents/R/gapC.csv")
+bc
+```
+```{r}
+str(bc)
+```
+
+
+```{r}
+sum(is.na(bc))
+```
+
+```{r}
+bc_cleaned = na.omit(bc)
+bc_cleaned
+```
+
+```{r}
+means <- round(tapply(bc_cleaned$breastcancer, bc_cleaned$continent, mean), digits = 2)
+```
+
+```{r}
+plotmeans (bc_cleaned$breastcancer~bc_cleaned$continent, digits=2, ccol="red", mean.labels=T, main="Plot of breast cancer means by continent")
+```
+```{r}
+boxplot(bc_cleaned$breastcancer~bc_cleaned$continent, main="Breast cancer by continent(mean is black dot)", xlab = "continents", ylab = "new cases per 100,100 residents", col=rainbow(7))
+points(means, col="black", pch=18)
+```
+
+```{r}
+aov_cont<- aov(bc_cleaned$breastcancer ~ bc_cleaned$continent)
+summary(aov_cont)
+```
+```{r}
+tuk <- TukeyHSD(aov_cont)
+plot(tuk)
+```
+```{r}
+tuk
+```
+```{r}
+size <- c(3,4,5,6,4,5,6,7,7,8,9,10)
+pop <- c("A", "A", "A", "A", "B", "B", "B", "B", "C", "C", "C", "C")
+library(gplots)
+boxplot(size~pop)
+```
+```{r}
+means1 <- round(tapply(size, pop, mean), digits = 2)
+```
+
+```{r}
+plotmeans (size~pop, digits=2, col="red", mean.labels=T, main="Plot of size against pop")
+```
+
+```{r}
+boxplot(size~pop, main="Size against Pop(mean is black dot)", xlab = "pop", ylab = "size", col=rainbow(3))
+points(means, col="black", pch=18)
+```
+```{r}
+aov_cont1<- aov(size ~ pop)
+summary(aov_cont1)
+```
+```{r}
+tuk_1 <- TukeyHSD(aov_cont1)
+plot(tuk_1)
+```
+```{r}
+tuk_1
+```
+```{r}
+
+```

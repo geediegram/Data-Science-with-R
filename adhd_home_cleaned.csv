@@ -1,0 +1,202 @@
+"","study_id","consent_to_study","consent_to_future_use","consent_to_future_contact","redcap_event_name","data_status","sex","age","completer","completersp","q1","q2","q3","q4","q5","q6","q7","q8","q9","q10","q11","q12","q13","q14","q15","q16","q17","q18","rc_inattention_score","sql_inattention_score","sql_inattention_score_zero_imputed","rc_hyper_score","sql_hyper_score","sql_hyper_score_zero_imputed","rc_total_score","sql_total_score","sql_total_score_zero_imputed","adhd_rating_scale_home_version_complete","study_database","study_database_pkid","primary_key"
+"1","CAR-SIM725","Yes","Yes","Yes","Session 2","Incomplete","Male",624,"NA","NA",3,3,2,3,3,2,2,3,3,2,3,2,2,3,0,2,3,2,21,21,0,22,22,0,43,43,0,"Complete","ABC Study",1,1
+"2","CAR-SIM166","Yes","Yes","Yes","Non-Longitudinal","Incomplete","Male",816,"NA","NA",1,1,1,2,2,3,1,2,3,3,2,3,0,2,0,2,2,2,12,12,0,20,20,0,32,32,0,"Complete","Med Trial",2,2
+"3","CAR-SIM674","Yes","NA","Yes","Non-Longitudinal","Invalid","Female",864,"Father","NA",3,3,2,0,1,1,1,1,2,1,1,0,0,1,0,2,2,2,12,12,0,11,11,0,23,23,0,"Complete","ABC Study",3,3
+"4","CAR-SIM187","Yes","Yes","No","Session 1","Invalid","Female",960,"Mother","NA",2,0,2,1,1,0,1,0,0,2,2,2,0,2,0,2,2,1,10,10,0,10,10,0,20,20,0,"Complete","ABC Study",4,4
+"5","CAR-SIM360","Yes","Yes","Yes","Session 2","Invalid","Female",672,"Mother","NA",2,2,0,0,0,3,3,1,0,0,0,2,3,3,0,3,1,2,9,9,0,16,16,0,25,25,0,"Complete","ABC Study",5,5
+"6","CAR-SIM745","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Male",864,"Grandparent","NA",1,1,1,0,1,2,0,1,0,0,0,2,1,0,2,1,3,0,9,9,0,7,7,0,16,16,0,"Complete","Med Trial",6,6
+"7","CAR-SIM958","Yes","Yes","Yes","Session 1","Not Collected","Male",960,"Grandparent","NA",2,3,2,3,3,1,2,1,0,1,2,2,2,2,2,2,2,3,17,17,0,18,18,0,35,35,0,"Complete","ABC Study",7,7
+"8","CAR-SIM331","Yes","Yes","Yes","Session 2","Invalid","Female",912,"Mother","NA",0,2,0,2,3,2,1,1,3,3,3,2,1,2,3,3,2,3,16,16,0,20,20,0,36,36,0,"Complete","ABC Study",8,8
+"9","CAR-SIM596","Yes","Yes","Yes","Non-Longitudinal","NULL","NA",816,"NA","NA",0,1,3,2,0,3,1,2,2,3,2,1,2,3,0,2,0,2,10,10,0,19,19,0,29,29,0,"Complete","123 Grant",9,9
+"10","CAR-SIM204","Yes","Yes","Yes","Session 1","Incomplete","Male",816,"Grandparent","NA",0,0,1,1,1,1,2,3,2,2,2,1,0,1,3,1,2,0,13,13,0,10,10,0,23,23,0,"Complete","123 Grant",10,10
+"11","CAR-SIM488","NA","Yes","Yes","Session 1","NULL","Male",864,"Father","NA",3,0,1,1,1,0,2,0,1,2,1,1,1,3,0,3,2,1,12,12,0,11,11,0,23,23,0,"Complete","123 Grant",11,11
+"12","CAR-SIM146","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Male",816,"Father","NA",2,0,0,0,1,1,0,1,2,1,3,1,1,0,2,1,0,0,11,11,0,5,5,0,16,16,0,"Complete","Med Trial",12,12
+"13","CAR-SIM854","Yes","Yes","Yes","Session 1","Invalid","NA",816,"Mother","NA",1,2,1,1,1,0,2,1,0,0,0,2,2,1,0,0,2,1,9,9,0,8,8,0,17,17,0,"Complete","123 Grant",13,13
+"14","CAR-SIM740","Yes","Yes","NA","Non-Longitudinal","Invalid","Male",816,"Father","NA",2,0,1,2,2,2,2,2,2,1,2,2,1,1,0,1,1,3,13,13,0,14,14,0,27,27,0,"Complete","ABC Study",14,14
+"15","CAR-SIM342","Yes","Yes","Yes","Session 1","Invalid","Male",912,"Father","NA",3,1,2,0,1,0,1,2,0,1,1,1,2,1,2,0,1,1,13,13,0,7,7,0,20,20,0,"Complete","Med Trial",15,15
+"16","CAR-SIM387","Yes","Yes","Yes","Session 2","NULL","Male",624,"Mother","NA",1,3,2,0,2,3,3,0,3,1,1,2,3,2,0,0,3,1,18,18,0,12,12,0,30,30,0,"Complete","ABC Study",16,16
+"17","CAR-SIM440","Yes","NA","Yes","Session 1","Invalid","Male",1008,"NA","NA",3,3,1,3,3,1,3,3,2,0,3,0,2,3,2,1,3,2,22,22,0,16,16,0,38,38,0,"Complete","Med Trial",17,17
+"18","CAR-SIM892","NA","Yes","Yes","Session 1","Incomplete","Male",768,"Mother","NA",2,0,1,0,2,1,0,1,0,0,2,1,1,1,1,2,0,3,9,9,0,9,9,0,18,18,0,"Complete","ABC Study",18,18
+"19","CAR-SIM577","Yes","Yes","Yes","Session 2","NULL","Male",816,"Grandparent","NA",2,1,0,2,3,1,1,2,1,3,2,1,3,2,0,2,3,1,15,15,0,15,15,0,30,30,0,"Complete","ABC Study",19,19
+"20","CAR-SIM348","Yes","Yes","Yes","Non-Longitudinal","NULL","Male",816,"NA","NA",2,1,0,1,3,3,1,1,2,1,3,2,2,1,2,2,2,1,17,17,0,13,13,0,30,30,0,"Complete","123 Grant",20,20
+"21","CAR-SIM156","Yes","Yes","Yes","Session 2","Not Collected","Female",624,"NA","NA",0,1,2,2,1,1,1,2,1,2,2,0,1,1,1,1,1,0,10,10,0,10,10,0,20,20,0,"Complete","Med Trial",21,21
+"22","CAR-SIM917","Yes","Yes","Yes","Session 1","Invalid","Male",624,"Grandparent","NA",0,2,0,0,3,0,2,3,2,3,0,1,0,1,3,0,1,2,11,11,0,12,12,0,23,23,0,"Complete","Med Trial",22,22
+"23","CAR-SIM903","NA","NA","NA","Non-Longitudinal","NULL","Male",576,"Grandparent","NA",1,2,0,2,1,2,1,0,0,1,0,1,0,3,1,3,2,1,6,6,0,15,15,0,21,21,0,"Complete","123 Grant",23,23
+"24","CAR-SIM850","Yes","Yes","Yes","Non-Longitudinal","Incomplete","NA",768,"NA","NA",2,1,3,0,1,0,0,0,1,0,1,1,0,0,2,0,1,1,11,11,0,3,3,0,14,14,0,"Complete","Med Trial",24,24
+"25","CAR-SIM379","Yes","Yes","NA","Non-Longitudinal","NULL","Male",720,"Mother","NA",1,1,2,3,3,3,0,2,3,0,0,3,2,2,1,2,3,3,15,15,0,19,19,0,34,34,0,"Complete","Med Trial",25,25
+"26","CAR-SIM727","Yes","Yes","NA","Session 2","Invalid","Female",624,"Father","NA",2,3,3,3,2,3,1,3,3,0,2,1,2,3,3,1,2,2,20,20,0,19,19,0,39,39,0,"Complete","123 Grant",26,26
+"27","CAR-SIM857","NA","Yes","Yes","Session 1","Invalid","Male",672,"Mother","NA",1,2,1,3,2,0,0,1,1,2,0,1,1,0,2,2,1,2,9,9,0,13,13,0,22,22,0,"Complete","ABC Study",27,27
+"28","CAR-SIM501","Yes","Yes","Yes","Session 1","Incomplete","Male",768,"Father","NA",0,3,1,2,1,2,3,0,1,1,2,0,0,0,3,0,2,1,13,13,0,9,9,0,22,22,0,"Complete","123 Grant",28,28
+"29","CAR-SIM585","Yes","NA","NA","Non-Longitudinal","Not Collected","Male",576,"Grandparent","NA",2,1,1,2,2,3,0,1,2,2,1,1,2,1,1,1,0,0,11,11,0,12,12,0,23,23,0,"Complete","Med Trial",29,29
+"30","CAR-SIM682","Yes","Yes","Yes","Session 1","Incomplete","Male",816,"Grandparent","NA",0,2,3,0,3,3,0,1,1,1,0,1,0,1,2,0,1,1,10,10,0,10,10,0,20,20,0,"Complete","Med Trial",30,30
+"31","CAR-SIM263","Yes","Yes","Yes","Session 2","Not Collected","Male",576,"Grandparent","NA",0,2,1,1,2,0,1,1,2,2,0,1,1,0,2,2,1,1,10,10,0,10,10,0,20,20,0,"Complete","123 Grant",31,31
+"32","CAR-SIM564","Yes","Yes","Yes","Session 2","Not Collected","Male",912,"Grandparent","NA",3,2,3,2,1,2,2,0,1,3,2,1,1,2,2,3,2,2,17,17,0,17,17,0,34,34,0,"Complete","Med Trial",32,32
+"33","CAR-SIM347","Yes","Yes","Yes","Session 1","Not Collected","Male",672,"Grandparent","NA",2,3,0,0,2,0,2,3,2,1,0,0,2,1,0,3,0,0,10,10,0,11,11,0,21,21,0,"Complete","123 Grant",33,33
+"34","CAR-SIM476","NA","Yes","Yes","Non-Longitudinal","Incomplete","Male",768,"Father","NA",1,1,1,0,0,0,0,1,0,2,2,1,0,0,0,2,0,1,4,4,0,8,8,0,12,12,0,"Complete","123 Grant",34,34
+"35","CAR-SIM132","Yes","Yes","Yes","Non-Longitudinal","Not Collected","NA",720,"Father","NA",1,0,0,1,1,2,1,2,1,2,1,3,1,1,0,1,1,0,7,7,0,12,12,0,19,19,0,"Complete","123 Grant",35,35
+"36","CAR-SIM308","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Male",864,"Father","NA",3,1,3,1,1,1,0,1,3,3,0,2,2,1,1,1,1,2,14,14,0,13,13,0,27,27,0,"Complete","123 Grant",36,36
+"37","CAR-SIM595","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Male",720,"Mother","NA",3,1,2,3,3,3,3,3,1,2,2,2,0,1,2,1,3,0,19,19,0,16,16,0,35,35,0,"Complete","Med Trial",37,37
+"38","CAR-SIM860","Yes","Yes","NA","Session 1","Incomplete","Male",960,"Grandparent","NA",2,2,3,2,2,1,1,1,2,1,0,3,3,2,2,1,0,1,15,15,0,14,14,0,29,29,0,"Complete","Med Trial",38,38
+"39","CAR-SIM371","Yes","Yes","Yes","Non-Longitudinal","NULL","Male",624,"Father","NA",2,3,1,2,1,3,2,2,2,1,0,2,1,3,3,2,2,2,14,14,0,20,20,0,34,34,0,"Complete","Med Trial",39,39
+"40","CAR-SIM439","Yes","Yes","Yes","Non-Longitudinal","NULL","NA",1056,"Grandparent","NA",1,0,1,3,0,1,1,0,3,3,2,2,0,1,1,2,1,0,10,10,0,12,12,0,22,22,0,"Complete","ABC Study",40,40
+"41","CAR-SIM581","Yes","Yes","Yes","Session 2","Incomplete","NA",912,"Father","NA",2,1,3,2,2,1,3,2,2,3,2,3,1,2,1,2,2,2,18,18,0,18,18,0,36,36,0,"Complete","123 Grant",41,41
+"42","CAR-SIM560","Yes","Yes","Yes","Session 2","Incomplete","Male",864,"Mother","NA",2,1,2,1,2,3,2,2,2,2,3,2,2,3,3,1,0,2,18,18,0,17,17,0,35,35,0,"Complete","ABC Study",42,42
+"43","CAR-SIM453","Yes","Yes","Yes","Non-Longitudinal","Incomplete","Female",1056,"Father","NA",1,1,0,2,0,3,0,2,1,2,3,1,3,3,2,3,1,3,11,11,0,20,20,0,31,31,0,"Complete","123 Grant",43,43
+"44","CAR-SIM193","Yes","Yes","Yes","Session 1","NULL","Male",1056,"Grandparent","NA",3,0,0,3,2,3,2,2,2,2,2,3,2,3,2,0,1,2,16,16,0,18,18,0,34,34,0,"Complete","123 Grant",44,44
+"45","CAR-SIM856","Yes","Yes","Yes","Session 1","NULL","Male",624,"Mother","NA",2,1,0,3,1,3,3,1,3,2,2,0,3,1,2,3,3,1,19,19,0,15,15,0,34,34,0,"Complete","123 Grant",45,45
+"46","CAR-SIM821","Yes","Yes","Yes","Session 2","Not Collected","Male",1008,"NA","NA",3,0,0,3,3,2,2,0,2,2,2,2,1,3,2,2,3,3,18,18,0,17,17,0,35,35,0,"Complete","ABC Study",46,46
+"47","CAR-SIM174","Yes","Yes","Yes","Non-Longitudinal","NULL","Male",672,"Grandparent","NA",0,2,3,2,1,2,2,1,1,3,3,3,3,2,1,3,2,2,16,16,0,20,20,0,36,36,0,"Complete","ABC Study",47,47
+"48","CAR-SIM979","Yes","Yes","Yes","Session 1","Invalid","Male",864,"Grandparent","NA",3,2,2,2,0,2,2,0,2,1,2,2,1,2,1,0,2,1,15,15,0,12,12,0,27,27,0,"Complete","123 Grant",48,48
+"49","CAR-SIM563","Yes","Yes","Yes","Non-Longitudinal","NULL","Female",720,"NA","NA",0,1,0,1,1,1,1,2,1,0,1,2,1,0,2,1,1,1,8,8,0,9,9,0,17,17,0,"Complete","123 Grant",49,49
+"50","CAR-SIM608","Yes","Yes","Yes","Session 1","NULL","Male",816,"Father","NA",3,0,2,3,3,1,0,1,1,3,0,3,2,2,1,3,1,3,13,13,0,19,19,0,32,32,0,"Complete","ABC Study",50,50
+"51","CAR-SIM197","Yes","Yes","NA","Session 1","Incomplete","Female",816,"Father","NA",0,2,2,1,3,1,3,1,0,1,1,3,1,1,1,1,2,0,13,13,0,11,11,0,24,24,0,"Complete","ABC Study",51,51
+"52","CAR-SIM524","Yes","Yes","Yes","Session 2","NULL","Male",672,"Grandparent","NA",1,1,1,3,3,1,2,2,3,1,0,2,3,3,3,1,2,1,18,18,0,15,15,0,33,33,0,"Complete","Med Trial",52,52
+"53","CAR-SIM940","Yes","Yes","Yes","Session 1","NULL","NA",1056,"Mother","NA",0,3,2,2,3,0,2,0,0,0,1,1,3,2,2,1,0,2,13,13,0,11,11,0,24,24,0,"Complete","ABC Study",53,53
+"54","CAR-SIM602","Yes","Yes","Yes","Session 2","Not Collected","Male",576,"NA","NA",2,2,3,3,3,0,2,2,3,3,1,2,2,1,0,2,1,0,17,17,0,15,15,0,32,32,0,"Complete","ABC Study",54,54
+"55","CAR-SIM840","Yes","Yes","Yes","Session 1","Not Collected","NA",720,"NA","NA",3,3,0,1,2,3,1,2,2,3,2,3,2,3,2,3,3,0,17,17,0,21,21,0,38,38,0,"Complete","123 Grant",55,55
+"56","CAR-SIM906","Yes","Yes","Yes","Session 1","Incomplete","Male",1056,"Mother","NA",3,3,3,1,0,0,0,2,2,0,0,3,1,3,0,0,0,0,9,9,0,12,12,0,21,21,0,"Complete","Med Trial",56,56
+"57","CAR-SIM315","Yes","Yes","Yes","Session 2","Not Collected","Male",816,"Father","NA",3,1,0,1,1,2,2,2,1,1,1,2,0,1,3,1,1,3,12,12,0,14,14,0,26,26,0,"Complete","123 Grant",57,57
+"58","CAR-SIM779","Yes","Yes","Yes","Session 1","Not Collected","Male",1008,"Grandparent","NA",2,2,3,1,3,2,2,2,3,2,3,2,3,2,0,1,3,3,22,22,0,17,17,0,39,39,0,"Complete","Med Trial",58,58
+"59","CAR-SIM487","NA","Yes","Yes","Session 2","Not Collected","Male",960,"Grandparent","NA",3,2,1,3,2,2,2,3,3,3,2,0,2,0,2,2,0,1,17,17,0,16,16,0,33,33,0,"Complete","ABC Study",59,59
+"60","CAR-SIM510","Yes","Yes","Yes","Session 1","NULL","Female",1008,"Grandparent","NA",2,3,2,2,2,0,3,2,2,1,2,3,2,2,2,2,2,2,19,19,0,17,17,0,36,36,0,"Complete","ABC Study",60,60
+"61","CAR-SIM254","Yes","Yes","Yes","Non-Longitudinal","Invalid","Male",864,"Grandparent","NA",2,2,1,1,1,0,0,3,1,2,1,3,1,0,0,0,3,0,10,10,0,11,11,0,21,21,0,"Complete","Med Trial",61,61
+"62","CAR-SIM799","Yes","Yes","Yes","Session 2","Invalid","Male",816,"Father","NA",3,3,1,3,2,2,2,2,2,3,2,2,2,3,3,1,2,2,19,19,0,21,21,0,40,40,0,"Complete","Med Trial",62,62
+"63","CAR-SIM711","NA","Yes","Yes","Session 1","Incomplete","Male",864,"Father","NA",2,2,0,2,3,3,2,0,3,3,1,2,1,2,2,2,1,3,15,15,0,19,19,0,34,34,0,"Complete","ABC Study",63,63
+"64","CAR-SIM930","Yes","Yes","Yes","Session 2","Incomplete","Male",768,"Father","NA",2,0,2,2,2,3,2,2,2,1,2,2,1,3,1,2,1,3,15,15,0,18,18,0,33,33,0,"Complete","123 Grant",64,64
+"65","CAR-SIM867","Yes","Yes","Yes","Session 2","Incomplete","Male",720,"NA","NA",3,2,2,2,3,1,0,1,2,2,2,2,2,3,3,3,0,3,17,17,0,19,19,0,36,36,0,"Complete","ABC Study",65,65
+"66","CAR-SIM266","Yes","Yes","Yes","Non-Longitudinal","NULL","NA",576,"Father","NA",0,3,0,1,2,2,1,1,1,1,1,1,3,0,2,1,1,1,11,11,0,11,11,0,22,22,0,"Complete","Med Trial",66,66
+"67","CAR-SIM610","Yes","Yes","Yes","Session 1","Incomplete","Male",768,"Mother","NA",0,2,1,2,2,0,0,3,0,1,0,2,0,1,1,2,1,1,5,5,0,14,14,0,19,19,0,"Complete","123 Grant",67,67
+"68","CAR-SIM291","Yes","Yes","Yes","Session 2","Invalid","Male",960,"NA","NA",2,3,0,3,2,2,3,3,1,2,0,1,0,1,1,2,0,0,9,9,0,17,17,0,26,26,0,"Complete","Med Trial",68,68
+"69","CAR-SIM299","Yes","Yes","Yes","Session 2","NULL","Male",720,"NA","NA",1,1,3,3,2,2,3,2,3,3,1,2,2,2,2,2,2,0,19,19,0,17,17,0,36,36,0,"Complete","123 Grant",69,69
+"70","CAR-SIM517","Yes","Yes","Yes","Session 1","Not Collected","Male",624,"NA","NA",3,3,0,0,0,0,2,0,0,1,3,3,1,0,2,0,0,1,11,11,0,8,8,0,19,19,0,"Complete","123 Grant",70,70
+"71","CAR-SIM662","No","Yes","Yes","Non-Longitudinal","Incomplete","Male",816,"NA","NA",2,3,2,2,1,1,3,3,2,1,1,3,1,2,2,0,1,2,15,15,0,17,17,0,32,32,0,"Complete","123 Grant",71,71
+"72","CAR-SIM503","Yes","Yes","Yes","Session 2","Incomplete","Male",720,"Father","NA",0,0,3,3,3,3,3,3,1,1,3,2,1,1,0,1,1,1,15,15,0,15,15,0,30,30,0,"Complete","Med Trial",72,72
+"73","CAR-SIM298","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Male",768,"Grandparent","NA",2,3,2,0,3,2,3,1,2,2,3,2,3,3,1,0,3,3,22,22,0,16,16,0,38,38,0,"Complete","Med Trial",73,73
+"74","CAR-SIM210","Yes","Yes","Yes","Session 1","Incomplete","Male",1056,"Grandparent","NA",2,2,0,2,0,2,3,2,0,2,2,1,3,3,3,3,3,2,16,16,0,19,19,0,35,35,0,"Complete","123 Grant",74,74
+"75","CAR-SIM280","Yes","Yes","Yes","Session 1","Incomplete","Male",672,"Grandparent","NA",1,0,1,1,0,1,2,3,1,0,2,2,1,0,1,1,3,2,12,12,0,10,10,0,22,22,0,"Complete","Med Trial",75,75
+"76","CAR-SIM838","Yes","Yes","NA","Session 1","NULL","Male",1056,"Grandparent","NA",3,3,0,0,2,0,0,2,2,0,0,2,0,1,1,1,1,1,9,9,0,10,10,0,19,19,0,"Complete","Med Trial",76,76
+"77","CAR-SIM736","Yes","NA","Yes","Session 1","Incomplete","Male",1056,"Father","NA",1,3,1,3,2,2,3,0,1,0,0,1,1,2,2,2,1,1,12,12,0,14,14,0,26,26,0,"Complete","123 Grant",77,77
+"78","CAR-SIM336","Yes","Yes","Yes","Non-Longitudinal","Incomplete","Male",672,"NA","NA",2,1,2,1,3,3,0,3,3,0,2,3,3,3,3,1,2,0,20,20,0,15,15,0,35,35,0,"Complete","ABC Study",78,78
+"79","CAR-SIM421","Yes","Yes","Yes","Non-Longitudinal","Incomplete","NA",1056,"Grandparent","NA",1,1,3,3,2,0,0,2,2,3,2,2,2,2,3,0,2,3,17,17,0,16,16,0,33,33,0,"Complete","Med Trial",79,79
+"80","CAR-SIM246","Yes","Yes","Yes","Non-Longitudinal","Incomplete","Male",1008,"Grandparent","NA",3,3,2,2,3,0,0,3,3,3,3,3,2,2,2,2,3,3,21,21,0,21,21,0,42,42,0,"Complete","ABC Study",80,80
+"81","CAR-SIM625","NA","Yes","Yes","Session 1","NULL","Female",768,"Mother","NA",0,0,1,0,1,1,0,1,2,1,1,0,1,0,0,1,0,2,6,6,0,6,6,0,12,12,0,"Complete","123 Grant",81,81
+"82","CAR-SIM171","Yes","Yes","Yes","Session 2","Not Collected","Female",720,"NA","NA",2,2,2,2,3,1,1,2,1,2,3,2,2,3,2,1,3,2,19,19,0,17,17,0,36,36,0,"Complete","ABC Study",82,82
+"83","CAR-SIM869","Yes","Yes","Yes","Non-Longitudinal","Invalid","Male",912,"Father","NA",3,1,3,0,0,2,2,1,3,2,3,2,1,1,2,1,2,3,19,19,0,13,13,0,32,32,0,"Complete","ABC Study",83,83
+"84","CAR-SIM922","Yes","Yes","Yes","Session 1","Incomplete","Male",1056,"Father","NA",2,3,3,3,3,3,2,1,2,2,0,2,2,1,2,3,2,1,18,18,0,19,19,0,37,37,0,"Complete","ABC Study",84,84
+"85","CAR-SIM140","Yes","Yes","Yes","Session 2","Incomplete","Male",1056,"NA","NA",0,2,2,2,2,3,3,3,3,3,2,3,2,1,2,2,1,3,17,17,0,22,22,0,39,39,0,"Complete","ABC Study",85,85
+"86","CAR-SIM789","Yes","Yes","Yes","Session 1","Incomplete","Male",768,"NA","NA",3,1,0,0,1,1,1,0,3,3,0,0,1,0,1,1,2,2,12,12,0,8,8,0,20,20,0,"Complete","123 Grant",86,86
+"87","CAR-SIM107","Yes","Yes","Yes","Session 2","Invalid","Female",912,"NA","NA",1,3,2,0,0,0,1,3,3,0,1,0,2,0,0,1,2,1,12,12,0,8,8,0,20,20,0,"Complete","Med Trial",87,87
+"88","CAR-SIM638","Yes","Yes","Yes","Session 2","NULL","NA",864,"Grandparent","NA",2,0,3,0,1,1,0,2,2,2,1,3,2,0,2,1,2,0,15,15,0,9,9,0,24,24,0,"Complete","123 Grant",88,88
+"89","CAR-SIM459","Yes","Yes","No","Session 2","Invalid","Male",912,"Grandparent","NA",1,0,0,1,0,3,0,2,1,1,3,0,0,1,0,2,0,1,5,5,0,11,11,0,16,16,0,"Complete","ABC Study",89,89
+"90","CAR-SIM184","Yes","Yes","Yes","Non-Longitudinal","Invalid","Male",768,"Father","NA",2,2,1,0,0,1,1,0,2,0,2,1,2,1,0,2,1,2,11,11,0,9,9,0,20,20,0,"Complete","123 Grant",90,90
+"91","CAR-SIM433","Yes","Yes","Yes","Non-Longitudinal","Incomplete","Male",624,"Grandparent","NA",1,0,1,0,1,2,3,1,2,1,0,2,1,2,3,3,3,1,15,15,0,12,12,0,27,27,0,"Complete","123 Grant",91,91
+"92","CAR-SIM127","Yes","Yes","Yes","Session 1","Incomplete","Male",864,"NA","NA",2,3,2,1,0,1,3,3,2,3,0,2,2,2,2,2,2,1,15,15,0,18,18,0,33,33,0,"Complete","Med Trial",92,92
+"93","CAR-SIM935","Yes","Yes","Yes","Session 1","Incomplete","Male",1008,"Grandparent","NA",2,3,3,1,2,1,3,3,3,1,3,2,2,1,2,3,3,3,23,23,0,18,18,0,41,41,0,"Complete","123 Grant",93,93
+"94","CAR-SIM327","Yes","Yes","Yes","Session 2","Not Collected","Male",1008,"Mother","NA",1,0,2,0,2,1,2,1,1,2,1,0,0,0,1,0,1,0,11,11,0,4,4,0,15,15,0,"Complete","Med Trial",94,94
+"95","CAR-SIM752","Yes","Yes","Yes","Session 2","Not Collected","Male",576,"Father","NA",1,1,1,0,1,1,0,1,3,2,0,1,2,1,0,0,2,2,10,10,0,9,9,0,19,19,0,"Complete","123 Grant",95,95
+"96","CAR-SIM784","Yes","Yes","Yes","Session 2","Not Collected","Male",816,"NA","NA",1,0,1,1,1,0,1,1,0,2,1,0,0,1,0,2,1,0,6,6,0,7,7,0,13,13,0,"Complete","123 Grant",96,96
+"97","CAR-SIM557","Yes","Yes","Yes","Session 2","Not Collected","Male",768,"Mother","NA",0,3,3,2,2,2,1,2,2,1,0,2,0,1,2,2,2,1,12,12,0,16,16,0,28,28,0,"Complete","Med Trial",97,97
+"98","CAR-SIM105","NA","Yes","Yes","Non-Longitudinal","NULL","Male",768,"Mother","NA",0,0,0,2,2,3,1,0,0,1,0,1,0,0,0,3,1,1,4,4,0,11,11,0,15,15,0,"Complete","123 Grant",98,98
+"99","CAR-SIM475","Yes","Yes","Yes","Session 2","Not Collected","Male",912,"Mother","NA",2,0,0,2,0,0,0,3,0,1,1,0,3,0,0,0,2,0,8,8,0,6,6,0,14,14,0,"Complete","ABC Study",99,99
+"100","CAR-SIM841","Yes","Yes","Yes","Session 2","Invalid","Male",624,"Grandparent","NA",1,1,3,0,2,1,0,0,0,3,0,1,1,2,0,2,3,0,10,10,0,10,10,0,20,20,0,"Complete","Med Trial",100,100
+"101","CAR-SIM842","Yes","Yes","Yes","Session 1","Incomplete","NA",1008,"NA","NA",3,1,0,2,2,1,3,1,0,0,0,3,1,1,1,0,1,1,11,11,0,10,10,0,21,21,0,"Complete","123 Grant",101,101
+"102","CAR-SIM688","Yes","Yes","Yes","Session 1","Incomplete","Male",912,"Mother","NA",3,0,1,3,1,2,0,3,1,1,0,3,0,0,1,1,0,1,7,7,0,14,14,0,21,21,0,"Complete","Med Trial",102,102
+"103","CAR-SIM160","Yes","Yes","Yes","Non-Longitudinal","NULL","Male",960,"NA","NA",2,1,2,1,3,3,1,0,2,3,3,1,0,3,2,3,2,1,17,17,0,16,16,0,33,33,0,"Complete","123 Grant",103,103
+"104","CAR-SIM220","NA","Yes","Yes","Session 2","Not Collected","Male",576,"NA","NA",2,1,1,2,0,3,0,3,1,1,1,1,1,3,1,1,0,3,7,7,0,18,18,0,25,25,0,"Complete","ABC Study",104,104
+"105","CAR-SIM137","Yes","Yes","Yes","Non-Longitudinal","NULL","Male",816,"Grandparent","NA",0,1,0,0,1,2,1,3,1,0,1,1,3,0,1,3,2,0,10,10,0,10,10,0,20,20,0,"Complete","Med Trial",105,105
+"106","CAR-SIM584","Yes","Yes","Yes","Session 2","NULL","Male",864,"NA","NA",0,0,1,1,1,3,3,1,0,3,2,1,2,0,2,0,1,0,12,12,0,9,9,0,21,21,0,"Complete","Med Trial",106,106
+"107","CAR-SIM405","Yes","Yes","Yes","Non-Longitudinal","NULL","Male",864,"NA","NA",0,1,1,1,3,2,0,3,1,1,1,2,1,0,1,2,1,2,9,9,0,14,14,0,23,23,0,"Complete","ABC Study",107,107
+"108","CAR-SIM400","Yes","Yes","Yes","Session 1","Invalid","Male",1056,"Mother","NA",2,2,1,1,1,3,2,2,2,3,1,3,3,0,3,1,1,0,16,16,0,15,15,0,31,31,0,"Complete","Med Trial",108,108
+"109","CAR-SIM320","Yes","Yes","Yes","Session 2","Invalid","Male",720,"Grandparent","NA",2,0,0,1,2,2,1,1,3,2,2,3,2,2,2,1,2,1,16,16,0,13,13,0,29,29,0,"Complete","ABC Study",109,109
+"110","CAR-SIM110","Yes","NA","Yes","Session 2","Incomplete","Male",816,"Mother","NA",2,0,0,0,0,1,1,3,3,1,0,0,2,1,1,1,1,2,10,10,0,9,9,0,19,19,0,"Complete","Med Trial",110,110
+"111","CAR-SIM468","Yes","Yes","Yes","Session 2","Invalid","Male",624,"Father","NA",3,1,2,2,3,3,2,2,0,1,1,2,1,0,0,2,1,1,13,13,0,14,14,0,27,27,0,"Complete","ABC Study",111,111
+"112","CAR-SIM722","Yes","Yes","Yes","Session 1","Invalid","Male",624,"Grandparent","NA",2,1,2,3,1,1,0,1,1,3,1,1,2,0,1,0,0,1,10,10,0,11,11,0,21,21,0,"Complete","Med Trial",112,112
+"113","CAR-SIM647","Yes","Yes","Yes","Non-Longitudinal","Invalid","Male",624,"NA","NA",2,2,2,2,3,3,3,3,3,2,3,2,2,3,1,1,2,2,21,21,0,20,20,0,41,41,0,"Complete","123 Grant",113,113
+"114","CAR-SIM288","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Male",960,"Grandparent","NA",2,0,3,3,2,2,3,2,3,0,1,1,1,0,2,1,3,2,20,20,0,11,11,0,31,31,0,"Complete","123 Grant",114,114
+"115","CAR-SIM877","Yes","Yes","Yes","Session 2","Incomplete","Female",1056,"Grandparent","NA",2,1,1,0,0,0,1,1,0,0,2,0,0,3,0,1,2,0,8,8,0,6,6,0,14,14,0,"Complete","Med Trial",115,115
+"116","CAR-SIM955","Yes","Yes","Yes","Session 2","Not Collected","Male",672,"NA","NA",3,3,3,1,0,3,2,1,2,0,0,3,1,1,3,0,2,1,16,16,0,13,13,0,29,29,0,"Complete","123 Grant",116,116
+"117","CAR-SIM375","Yes","Yes","Yes","Non-Longitudinal","Incomplete","Male",672,"Mother","NA",2,0,2,2,3,3,1,2,3,1,3,2,3,2,2,2,2,2,21,21,0,16,16,0,37,37,0,"Complete","ABC Study",117,117
+"118","CAR-SIM470","NA","NA","Yes","Non-Longitudinal","Not Collected","Male",912,"Father","NA",1,0,3,1,3,1,1,3,3,2,3,0,2,0,2,2,0,1,18,18,0,10,10,0,28,28,0,"Complete","Med Trial",118,118
+"119","CAR-SIM803","Yes","Yes","Yes","Session 2","Incomplete","Male",1056,"Father","NA",3,1,2,2,0,0,3,3,3,1,0,3,3,0,2,2,2,1,18,18,0,13,13,0,31,31,0,"Complete","Med Trial",119,119
+"120","CAR-SIM372","NA","Yes","NA","Session 1","Invalid","Male",816,"Father","NA",2,1,0,1,1,1,1,3,0,1,0,1,1,1,1,1,0,1,6,6,0,11,11,0,17,17,0,"Complete","ABC Study",120,120
+"121","CAR-SIM851","Yes","Yes","Yes","Session 1","Not Collected","NA",912,"Grandparent","NA",2,2,1,1,0,1,2,1,0,3,1,0,0,2,2,2,0,1,8,8,0,13,13,0,21,21,0,"Complete","123 Grant",121,121
+"122","CAR-SIM494","Yes","Yes","Yes","Session 1","Not Collected","Female",816,"NA","NA",1,0,2,3,0,2,1,2,1,2,1,1,2,2,3,1,1,0,12,12,0,13,13,0,25,25,0,"Complete","123 Grant",122,122
+"123","CAR-SIM677","Yes","Yes","NA","Session 1","Invalid","Male",672,"NA","NA",2,1,3,3,3,1,0,2,2,1,3,1,3,3,2,3,1,3,19,19,0,18,18,0,37,37,0,"Complete","123 Grant",123,123
+"124","CAR-SIM952","Yes","Yes","Yes","Session 1","NULL","Male",672,"NA","NA",0,1,0,2,1,3,0,0,2,2,3,2,1,2,3,3,0,2,10,10,0,17,17,0,27,27,0,"Complete","ABC Study",124,124
+"125","CAR-SIM616","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Male",1008,"Grandparent","NA",1,3,3,3,2,1,0,0,3,0,1,1,0,1,1,2,2,2,13,13,0,13,13,0,26,26,0,"Complete","Med Trial",125,125
+"126","CAR-SIM816","Yes","Yes","Yes","Session 2","Not Collected","Male",720,"NA","NA",3,1,3,2,2,2,0,3,1,3,3,2,0,2,2,3,1,3,15,15,0,21,21,0,36,36,0,"Complete","123 Grant",126,126
+"127","CAR-SIM802","Yes","Yes","NA","Non-Longitudinal","NULL","Female",1056,"Mother","NA",2,1,2,3,3,1,2,3,3,2,3,1,1,0,3,2,3,0,22,22,0,13,13,0,35,35,0,"Complete","123 Grant",127,127
+"128","CAR-SIM176","Yes","No","Yes","Non-Longitudinal","NULL","Female",672,"NA","NA",1,1,0,1,0,3,0,0,0,1,3,0,2,1,2,2,1,1,9,9,0,10,10,0,19,19,0,"Complete","Med Trial",128,128
+"129","CAR-SIM388","Yes","Yes","Yes","Non-Longitudinal","NULL","Male",912,"Mother","NA",1,2,2,0,1,2,0,0,1,2,1,1,1,2,1,0,1,1,9,9,0,10,10,0,19,19,0,"Complete","ABC Study",129,129
+"130","CAR-SIM944","Yes","Yes","Yes","Session 1","NULL","Male",912,"NA","NA",0,1,1,3,3,1,3,0,0,1,2,0,2,0,2,0,1,2,14,14,0,8,8,0,22,22,0,"Complete","123 Grant",130,130
+"131","CAR-SIM399","Yes","Yes","Yes","Non-Longitudinal","Invalid","Male",1056,"Grandparent","NA",3,3,1,3,2,2,3,3,3,2,0,3,3,1,3,2,1,3,19,19,0,22,22,0,41,41,0,"Complete","ABC Study",131,131
+"132","CAR-SIM993","Yes","Yes","Yes","Session 1","Not Collected","Male",768,"NA","NA",2,2,2,1,2,3,3,2,2,2,2,3,1,3,2,3,3,2,19,19,0,21,21,0,40,40,0,"Complete","ABC Study",132,132
+"133","CAR-SIM771","Yes","NA","Yes","Non-Longitudinal","Invalid","Female",720,"Mother","NA",1,2,1,1,3,1,1,0,2,2,0,0,0,1,0,3,2,1,10,10,0,11,11,0,21,21,0,"Complete","Med Trial",133,133
+"134","CAR-SIM805","NA","Yes","Yes","Non-Longitudinal","Invalid","Female",1008,"NA","NA",2,1,3,0,3,3,3,1,1,3,3,1,1,2,3,2,2,2,21,21,0,15,15,0,36,36,0,"Complete","ABC Study",134,134
+"135","CAR-SIM200","Yes","Yes","Yes","Session 2","NULL","Male",1056,"Grandparent","NA",2,3,0,2,0,1,0,1,2,0,2,3,1,3,2,3,1,2,10,10,0,18,18,0,28,28,0,"Complete","Med Trial",135,135
+"136","CAR-SIM829","Yes","Yes","Yes","Session 1","Not Collected","Female",912,"Mother","NA",0,2,0,3,0,0,2,1,2,2,3,2,1,1,1,1,2,0,11,11,0,12,12,0,23,23,0,"Complete","ABC Study",136,136
+"137","CAR-SIM902","Yes","Yes","NA","Session 1","Not Collected","Female",576,"Mother","NA",3,3,0,2,1,3,3,2,3,2,2,2,3,1,2,1,2,2,19,19,0,18,18,0,37,37,0,"Complete","ABC Study",137,137
+"138","CAR-SIM656","Yes","Yes","Yes","Session 1","NULL","Female",912,"Father","NA",2,3,3,2,3,3,1,2,3,3,3,3,0,1,2,3,2,0,19,19,0,20,20,0,39,39,0,"Complete","ABC Study",138,138
+"139","CAR-SIM543","Yes","Yes","Yes","Non-Longitudinal","Invalid","Male",672,"Grandparent","NA",2,1,2,2,1,0,3,2,1,3,2,3,1,2,2,3,0,1,14,14,0,17,17,0,31,31,0,"Complete","ABC Study",139,139
+"140","CAR-SIM194","Yes","Yes","Yes","Session 1","Incomplete","Female",624,"Mother","NA",3,2,2,1,2,2,2,1,2,1,3,2,2,2,1,0,0,3,17,17,0,14,14,0,31,31,0,"Complete","123 Grant",140,140
+"141","CAR-SIM692","NA","Yes","Yes","Session 2","Not Collected","Male",816,"Father","NA",1,3,3,0,2,3,2,3,2,3,2,3,2,2,1,2,2,3,17,17,0,22,22,0,39,39,0,"Complete","Med Trial",141,141
+"142","CAR-SIM630","Yes","Yes","Yes","Session 1","Incomplete","Female",768,"Father","NA",2,1,1,2,0,3,2,3,2,2,1,3,2,2,2,2,3,0,15,15,0,18,18,0,33,33,0,"Complete","123 Grant",142,142
+"143","CAR-SIM515","Yes","NA","Yes","Session 2","NULL","Female",816,"NA","NA",2,3,1,2,3,1,3,2,1,2,3,3,2,1,2,1,2,0,19,19,0,15,15,0,34,34,0,"Complete","Med Trial",143,143
+"144","CAR-SIM715","Yes","Yes","NA","Session 1","Invalid","NA",576,"Father","NA",0,1,2,1,0,2,1,1,2,1,1,3,2,1,1,1,1,0,10,10,0,11,11,0,21,21,0,"Complete","Med Trial",144,144
+"145","CAR-SIM587","Yes","No","Yes","Session 2","Incomplete","Male",1056,"Grandparent","NA",0,3,0,1,2,1,1,1,1,1,0,1,1,0,0,1,0,1,5,5,0,10,10,0,15,15,0,"Complete","Med Trial",145,145
+"146","CAR-SIM417","Yes","Yes","Yes","Session 1","Not Collected","Male",624,"Grandparent","NA",3,1,3,0,0,0,2,3,3,3,2,3,2,3,0,2,1,2,16,16,0,17,17,0,33,33,0,"Complete","ABC Study",146,146
+"147","CAR-SIM655","Yes","Yes","Yes","Non-Longitudinal","Incomplete","Male",672,"Father","NA",1,2,2,2,0,1,1,3,2,0,1,2,2,0,1,3,1,1,11,11,0,14,14,0,25,25,0,"Complete","Med Trial",147,147
+"148","CAR-SIM541","Yes","Yes","Yes","Non-Longitudinal","Incomplete","Male",720,"Mother","NA",2,2,3,3,0,2,0,1,3,1,3,2,1,3,2,2,3,2,17,17,0,18,18,0,35,35,0,"Complete","ABC Study",148,148
+"149","CAR-SIM718","NA","Yes","Yes","Session 2","Invalid","Male",912,"NA","NA",1,0,3,1,0,0,3,0,1,1,0,2,1,3,1,0,1,3,11,11,0,10,10,0,21,21,0,"Complete","ABC Study",149,149
+"150","CAR-SIM781","Yes","Yes","Yes","Session 1","Invalid","Male",672,"Mother","NA",1,2,1,2,1,2,0,1,0,1,1,2,3,0,1,0,1,2,9,9,0,12,12,0,21,21,0,"Complete","ABC Study",150,150
+"151","CAR-SIM614","Yes","Yes","Yes","Session 2","Not Collected","Male",816,"Grandparent","NA",3,1,2,1,3,2,2,3,3,3,2,2,2,3,2,0,1,3,20,20,0,18,18,0,38,38,0,"Complete","Med Trial",151,151
+"152","CAR-SIM992","NA","Yes","Yes","Session 1","Incomplete","Male",864,"NA","NA",1,0,0,0,0,1,3,0,2,3,2,2,1,2,1,0,1,3,11,11,0,11,11,0,22,22,0,"Complete","Med Trial",152,152
+"153","CAR-SIM358","Yes","Yes","Yes","Session 1","NULL","Male",912,"Mother","NA",3,2,2,3,3,0,3,2,0,2,1,2,2,1,3,1,2,0,19,19,0,13,13,0,32,32,0,"Complete","Med Trial",153,153
+"154","CAR-SIM976","Yes","Yes","Yes","Session 2","Not Collected","Male",720,"Mother","NA",0,1,2,3,1,3,1,2,2,1,2,2,0,2,2,2,3,2,13,13,0,18,18,0,31,31,0,"Complete","123 Grant",154,154
+"155","CAR-SIM307","Yes","Yes","Yes","Session 2","Invalid","Male",672,"Father","NA",2,3,3,2,2,2,2,3,0,3,3,2,1,2,3,3,0,3,16,16,0,23,23,0,39,39,0,"Complete","ABC Study",155,155
+"156","CAR-SIM224","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Female",672,"Grandparent","NA",3,2,2,2,1,2,1,3,2,2,2,1,2,3,3,2,2,3,18,18,0,20,20,0,38,38,0,"Complete","123 Grant",156,156
+"157","CAR-SIM974","NA","Yes","Yes","Non-Longitudinal","Incomplete","Male",960,"NA","NA",0,0,2,1,1,1,0,2,1,1,1,1,0,3,1,1,3,0,9,9,0,10,10,0,19,19,0,"Complete","ABC Study",157,157
+"158","CAR-SIM849","Yes","Yes","Yes","Non-Longitudinal","Invalid","Male",576,"Mother","NA",0,2,0,1,3,0,2,1,1,1,1,0,2,2,0,1,0,1,9,9,0,9,9,0,18,18,0,"Complete","123 Grant",158,158
+"159","CAR-SIM826","NA","Yes","Yes","Session 1","NULL","Male",864,"Mother","NA",2,3,2,2,2,2,3,3,1,1,2,2,3,2,3,1,1,1,19,19,0,17,17,0,36,36,0,"Complete","Med Trial",159,159
+"160","CAR-SIM980","No","NA","Yes","Session 1","NULL","Male",624,"Grandparent","NA",1,3,2,2,3,2,1,1,2,0,2,3,1,3,0,3,3,3,15,15,0,20,20,0,35,35,0,"Complete","123 Grant",160,160
+"161","CAR-SIM149","Yes","Yes","Yes","Session 1","Not Collected","Male",672,"Grandparent","NA",2,1,0,2,2,3,1,3,2,2,1,2,0,3,2,2,3,0,13,13,0,18,18,0,31,31,0,"Complete","Med Trial",161,161
+"162","CAR-SIM125","Yes","Yes","Yes","Session 2","NULL","Male",624,"Mother","NA",0,0,2,0,0,0,2,1,3,1,1,2,2,3,1,1,1,1,12,12,0,9,9,0,21,21,0,"Complete","Med Trial",162,162
+"163","CAR-SIM633","Yes","NA","NA","Non-Longitudinal","Not Collected","Male",912,"NA","NA",2,0,0,0,0,1,1,1,3,3,2,0,1,3,2,1,3,2,14,14,0,11,11,0,25,25,0,"Complete","123 Grant",163,163
+"164","CAR-SIM576","Yes","Yes","Yes","Non-Longitudinal","NULL","Male",912,"Grandparent","NA",1,0,3,1,0,1,2,3,2,0,3,1,3,3,0,2,3,2,17,17,0,13,13,0,30,30,0,"Complete","ABC Study",164,164
+"165","CAR-SIM201","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Male",1056,"Mother","NA",3,2,2,3,2,1,1,1,1,1,3,2,3,2,2,2,1,3,18,18,0,17,17,0,35,35,0,"Complete","Med Trial",165,165
+"166","CAR-SIM777","Yes","Yes","Yes","Session 2","Not Collected","Female",768,"Mother","NA",3,1,2,0,0,0,0,0,0,3,1,1,2,2,1,0,0,2,9,9,0,9,9,0,18,18,0,"Complete","ABC Study",166,166
+"167","CAR-SIM890","Yes","Yes","Yes","Session 1","NULL","Male",1008,"NA","NA",2,3,2,1,0,0,2,3,1,0,1,1,3,0,0,0,0,2,11,11,0,10,10,0,21,21,0,"Complete","Med Trial",167,167
+"168","CAR-SIM763","Yes","Yes","Yes","Session 2","Invalid","Male",672,"Father","NA",3,2,0,1,3,2,2,2,2,3,3,1,1,1,2,2,3,3,19,19,0,17,17,0,36,36,0,"Complete","Med Trial",168,168
+"169","CAR-SIM575","Yes","Yes","Yes","Session 2","Invalid","Male",1008,"NA","NA",3,1,3,1,0,3,2,0,2,0,2,2,2,2,0,2,0,2,14,14,0,13,13,0,27,27,0,"Complete","123 Grant",169,169
+"170","CAR-SIM214","Yes","Yes","Yes","Non-Longitudinal","Invalid","Male",1056,"Mother","NA",2,2,2,3,2,1,2,0,0,2,3,0,3,2,2,2,1,2,17,17,0,14,14,0,31,31,0,"Complete","ABC Study",170,170
+"171","CAR-SIM606","Yes","Yes","Yes","Session 1","NULL","Male",960,"Mother","NA",2,3,2,1,0,3,2,1,3,2,1,1,3,2,2,2,2,2,17,17,0,17,17,0,34,34,0,"Complete","123 Grant",171,171
+"172","CAR-SIM612","Yes","Yes","Yes","Session 2","Not Collected","NA",576,"Father","NA",2,3,3,2,2,3,3,2,3,3,2,3,0,2,3,1,2,3,20,20,0,22,22,0,42,42,0,"Complete","123 Grant",172,172
+"173","CAR-SIM310","Yes","NA","NA","Session 1","Invalid","Male",960,"NA","NA",0,1,2,2,1,1,2,3,1,2,1,0,3,2,1,3,0,3,11,11,0,17,17,0,28,28,0,"Complete","Med Trial",173,173
+"174","CAR-SIM392","Yes","Yes","Yes","Session 2","NULL","Male",864,"Mother","NA",2,2,1,0,0,3,0,0,3,2,0,2,3,1,3,0,0,1,12,12,0,11,11,0,23,23,0,"Complete","Med Trial",174,174
+"175","CAR-SIM106","Yes","Yes","Yes","Session 2","Invalid","Male",864,"NA","NA",0,1,1,2,1,0,3,1,1,1,1,0,0,1,1,0,2,0,10,10,0,6,6,0,16,16,0,"Complete","123 Grant",175,175
+"176","CAR-SIM209","Yes","Yes","NA","Session 2","Not Collected","NA",720,"Grandparent","NA",0,1,2,2,0,1,1,3,1,3,1,3,3,1,0,3,1,1,9,9,0,18,18,0,27,27,0,"Complete","123 Grant",176,176
+"177","CAR-SIM950","NA","Yes","Yes","Non-Longitudinal","Invalid","Male",960,"Mother","NA",2,1,3,1,3,3,2,2,2,3,1,3,0,2,2,3,3,1,18,18,0,19,19,0,37,37,0,"Complete","ABC Study",177,177
+"178","CAR-SIM797","Yes","Yes","Yes","Session 2","Not Collected","Male",624,"Father","NA",2,2,1,1,2,3,3,2,2,2,2,3,3,2,1,1,0,1,16,16,0,17,17,0,33,33,0,"Complete","123 Grant",178,178
+"179","CAR-SIM664","Yes","Yes","Yes","Non-Longitudinal","Invalid","Male",1056,"Mother","NA",3,2,3,3,3,2,3,2,1,3,2,2,1,2,2,3,0,2,18,18,0,21,21,0,39,39,0,"Complete","Med Trial",179,179
+"180","CAR-SIM641","Yes","Yes","Yes","Session 2","Incomplete","Male",768,"Mother","NA",0,1,0,1,3,1,0,2,3,2,2,3,3,0,0,2,0,3,11,11,0,15,15,0,26,26,0,"Complete","123 Grant",180,180
+"181","CAR-SIM490","Yes","Yes","Yes","Non-Longitudinal","NULL","Male",1056,"Mother","NA",2,3,3,2,3,3,2,3,3,3,3,2,1,0,2,2,2,2,21,21,0,20,20,0,41,41,0,"Complete","Med Trial",181,181
+"182","CAR-SIM566","Yes","Yes","Yes","Session 2","Incomplete","NA",912,"Father","NA",0,1,0,1,0,0,3,2,1,2,2,1,1,0,2,2,2,0,11,11,0,9,9,0,20,20,0,"Complete","Med Trial",182,182
+"183","CAR-SIM670","Yes","Yes","NA","Non-Longitudinal","Invalid","Male",576,"Mother","NA",1,0,2,0,0,0,1,2,1,1,1,0,1,3,3,3,1,1,11,11,0,10,10,0,21,21,0,"Complete","123 Grant",183,183
+"184","CAR-SIM223","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Female",864,"Mother","NA",1,2,2,2,2,1,0,2,1,0,1,1,1,1,1,0,1,1,10,10,0,10,10,0,20,20,0,"Complete","Med Trial",184,184
+"185","CAR-SIM542","NA","Yes","Yes","Session 2","Invalid","Male",864,"Grandparent","NA",2,2,1,3,3,0,2,3,3,2,3,1,3,2,2,1,0,2,19,19,0,16,16,0,35,35,0,"Complete","123 Grant",185,185
+"186","CAR-SIM265","Yes","Yes","Yes","Session 2","Not Collected","Male",960,"Grandparent","NA",1,1,0,2,1,3,1,1,1,1,1,2,3,1,3,1,0,2,11,11,0,14,14,0,25,25,0,"Complete","ABC Study",186,186
+"187","CAR-SIM234","NA","Yes","Yes","Session 2","NULL","Male",864,"Father","NA",1,0,2,0,3,2,2,2,1,3,2,1,3,1,2,3,2,2,18,18,0,14,14,0,32,32,0,"Complete","ABC Study",187,187
+"188","CAR-SIM951","Yes","Yes","Yes","Non-Longitudinal","Incomplete","Male",912,"Father","NA",0,2,2,0,1,0,0,1,0,1,1,0,1,2,0,2,0,1,5,5,0,9,9,0,14,14,0,"Complete","123 Grant",188,188
+"189","CAR-SIM357","Yes","Yes","Yes","Session 1","Not Collected","Male",864,"Mother","NA",1,0,1,3,2,0,3,0,3,0,1,2,2,1,1,1,2,3,16,16,0,10,10,0,26,26,0,"Complete","123 Grant",189,189
+"190","CAR-SIM926","Yes","Yes","Yes","Session 2","Not Collected","Male",576,"Grandparent","NA",1,2,2,1,0,0,0,1,1,0,0,1,1,1,2,1,0,1,7,7,0,8,8,0,15,15,0,"Complete","123 Grant",190,190
+"191","CAR-SIM642","Yes","Yes","Yes","Non-Longitudinal","Not Collected","Male",624,"NA","NA",0,0,0,1,2,2,0,1,0,3,2,1,2,1,1,1,3,3,10,10,0,13,13,0,23,23,0,"Complete","123 Grant",191,191
+"192","CAR-SIM999","Yes","Yes","Yes","Non-Longitudinal","Not Collected","NA",1008,"Mother","NA",0,1,1,0,3,1,1,0,0,0,1,3,2,0,2,2,3,0,13,13,0,7,7,0,20,20,0,"Complete","Med Trial",192,192
+"193","CAR-SIM545","Yes","Yes","Yes","Non-Longitudinal","NULL","Male",864,"Mother","NA",1,1,0,3,1,1,0,0,2,0,0,1,1,0,0,0,1,0,6,6,0,6,6,0,12,12,0,"Complete","123 Grant",193,193
+"194","CAR-SIM516","Yes","Yes","Yes","Session 2","NULL","NA",864,"Grandparent","NA",2,2,2,1,3,2,2,3,3,2,3,3,3,2,1,0,1,2,20,20,0,17,17,0,37,37,0,"Complete","Med Trial",194,194
+"195","CAR-SIM870","Yes","Yes","Yes","Session 1","Not Collected","Female",720,"Mother","NA",0,1,1,0,2,1,0,0,0,0,2,1,1,0,2,1,1,2,9,9,0,6,6,0,15,15,0,"Complete","ABC Study",195,195
+"196","CAR-SIM452","Yes","Yes","Yes","Session 2","Invalid","Female",816,"Grandparent","NA",1,2,2,0,3,2,0,3,2,3,1,1,3,0,3,2,3,0,18,18,0,13,13,0,31,31,0,"Complete","Med Trial",196,196
+"197","CAR-SIM978","NA","Yes","Yes","Session 2","Invalid","Male",912,"Grandparent","NA",3,1,2,3,2,1,3,0,3,1,1,1,2,0,1,1,0,0,17,17,0,8,8,0,25,25,0,"Complete","123 Grant",197,197
+"198","CAR-SIM686","Yes","Yes","Yes","Session 2","NULL","Male",1008,"NA","NA",1,1,1,1,1,1,1,0,0,1,0,1,1,3,1,1,1,1,7,7,0,10,10,0,17,17,0,"Complete","ABC Study",198,198
+"199","CAR-SIM206","Yes","Yes","Yes","Session 1","Not Collected","NA",672,"Mother","NA",1,1,2,2,0,1,3,0,0,0,1,2,1,0,1,0,1,1,10,10,0,7,7,0,17,17,0,"Complete","Med Trial",199,199
+"200","CAR-SIM963","Yes","Yes","Yes","Session 2","Incomplete","Male",864,"Father","NA",1,2,1,3,0,0,1,1,0,2,1,1,1,1,0,0,2,0,7,7,0,10,10,0,17,17,0,"Complete","Med Trial",200,200
+"201","study_id","consent_to_study","consent_to_future_us","consent_to_future_co","redcap_event_name","data_status","sex",0,"completer","completersp",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"adhd_rating_scale_home_version_complete","study_database",0,1919

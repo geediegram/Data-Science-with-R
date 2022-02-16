@@ -1,0 +1,28 @@
+---
+title: "Clustering"
+author: "Geediegram"
+date: "10/01/2022"
+output: pdf_document
+---
+
+```{r}
+head(mtcars)
+distance_mat <- dist(mtcars, method = 'euclidean')
+distance_mat
+```
+
+```{r}
+set.seed(240)
+Hierar_cl <- hclust(distance_mat, method = "average")
+Hierar_cl
+```
+```{r}
+plot(Hierar_cl)
+abline(h= 110, col = "red")
+fit <- cutree(Hierar_cl, k = 3)
+fit
+table(fit)
+rect.hclust(Hierar_cl, k = 3, border = "green")
+```
+
+

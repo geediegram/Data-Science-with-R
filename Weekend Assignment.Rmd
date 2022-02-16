@@ -1,0 +1,71 @@
+---
+title: "Weekend Ass"
+author: "Geediegram"
+date: "16/01/2022"
+output: pdf_document
+---
+
+```{r}
+library(readxl)
+library(dplyr)
+library(lmtest)
+library(fitAR)
+```
+```{r}
+data <- read.csv("~/Documents/R/R Files/crudeoilprices.csv")
+glimpse(data)
+```
+```{r}
+data <- read.csv("~/Documents/R/R Files/crudeoilprices.csv" ,header=TRUE)
+tsData<- ts(data[2:35,2],start=c(1986,1),frequency=12)
+plot(tsData)
+```
+```{r}
+timeseriescomponents <- decompose(tsData)
+plot(timeseriescomponents)
+```
+
+```{r}
+urkpssTest(tsData, type = c("tau"), lags = c("short"),use.lag = NULL, doplot = TRUE)
+tsstationary<-diﬀ(tsData, diﬀerences=1)
+plot(tsstationary)
+```
+
+```{r}
+WLI <- read_excel("~/Documents/R/R Files/world-lendinginterestrate.xls")
+WLI
+
+```
+```{r}
+WLI_2 <- read.csv("~/Documents/R/R Files/world-lendinginterestrate.xlsx - Data.csv")
+View(WLI_2)
+```
+
+
+```{r}
+tsWLI_2 <- ts(WLI_2[2:51, 2], start = 1976, frequency = 12)
+tsWLI_2
+```
+
+```{r}
+plot(WLI_2)
+```
+
+```{r}
+sum(is.na(tsWLI_2))
+```
+```{r}
+summary(ur.df(y = tsWLI_2, type = "none", lags = 1))
+```
+```{r}
+timeseriescomponents <- decompose(tsWLI_2)
+plot(timeseriescomponents)
+```
+```{r}
+urkpssTest(tsWLI_2, type = c("tau"), lags = c("short"),use.lag = NULL, doplot = TRUE)
+tsstationary_WLI_2<-diﬀ(tsWLI_2, diﬀerences=1)
+plot(tsstationary_WLI_2)
+```
+
+
+

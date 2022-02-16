@@ -1,0 +1,79 @@
+---
+title: "Linear Regression"
+author: "Geediegram"
+date: "08/12/2021"
+output: pdf_document
+---
+
+```{r}
+m1 <- read.csv("~/Documents/R/R Files/iris.csv", header = T)
+m1
+```
+```{r}
+sum(is.na(m1))
+```
+```{r}
+m1_cleaned = na.omit(m1)
+m1_cleaned
+```
+```{r}
+m1_cleaned <- lm(m1_cleaned$X5.1~m1_cleaned$X1.4, data = iris)
+summary(m1_cleaned)
+```
+```{r}
+hs <- read.csv("~/Documents/R/R Files/house.csv", header = T)
+hs
+```
+```{r}
+str(hs)
+```
+```{r}
+plot(hs$Price~hs$SQFT+hs$Bedrooms+hs$Bathrooms+hs$Price.SQFT+hs$Status+hs$Location, xlab="Price",ylab="SQFT", main="ScatterPlot of Price and SQFT")
+```
+
+```{r}
+hs_1 <- lm(hs$Price~hs$Bedrooms+hs$Bathrooms+hs$SQFT+hs$Status+hs$Price.SQFT)
+summary(hs_1)
+```
+```{r}
+hs <- read.csv("~/Documents/R/R Files/house.csv", header = T)
+hs
+boxplot(Price~Status, data = hs, main = "Status")
+```
+```{r}
+hs <- read.csv("~/Documents/R/R Files/house.csv", header = T)
+hs
+boxplot(Price~Location, data = hs, main = "Location")
+```
+```{r}
+hs <- read.csv("~/Documents/R/R Files/house.csv", header = T)
+hs
+boxplot(Price~Bedrooms, data = hs, main = "Bedrooms")
+```
+```{r}
+hs <- read.csv("~/Documents/R/R Files/house.csv", header = T)
+hs
+boxplot(Price~Bathrooms, data = hs, main = "Bathrooms")
+```
+```{r}
+hs <- read.csv("~/Documents/R/R Files/house.csv", header = T)
+hs
+boxplot(hs$SQFT, data = hs)
+```
+```{r}
+hs <- read.csv("~/Documents/R/R Files/house.csv", header = T)
+hs
+boxplot(hs$Price.SQFT, data = hs)
+```
+```{r}
+hs$SQFT[is.na(hs$SQFT)]<-median(hs$SQFT, na.rm=TRUE)
+hs
+```
+
+
+```{r}
+boxplot(hs$SQFT, data = hs)
+```
+
+
+

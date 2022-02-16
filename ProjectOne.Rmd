@@ -1,0 +1,286 @@
+---
+title: "ProjectOne"
+author: "Geediegram"
+date: "25/11/2021"
+output: pdf_document
+---
+
+```{r}
+102 + 45
+x<- matrix(0:15, nrow = 4, ncol = 4, byrow= T)
+x
+
+names<- c(1:10)
+dim(names) <- c(2,5)
+name
+```
+
+```{r}
+x <- 1:3
+y <- 4:6
+
+cbind(x,y)
+rbind(x,y)` 
+```
+
+```{r}
+name <- list(a="b", c=1)
+name$c
+```
+
+```{r}
+gender <- c("male","male","female","female","male","female","male")
+as.factor(gender)
+```
+
+```{r}
+x <- c(1,2,NA,10,3)
+mean(is.na(x))
+```
+
+```{r}
+emp.data <- data.frame (
+emp_id = c (1:5),
+emp_name = c ("Rick", "Dan", "Michelle", "Ryan", "Gary"),
+salary = c (623.3, 515.2, 611.0, 729.0, 843.25)
+)
+
+emp.data[3,]
+```
+
+
+```{r}
+names (x) <- c("five", "six", "seven")
+```
+
+```{r}
+x <- c("a", "b", "c", "d")
+x[x> "a"]
+```
+
+```{r}
+x <- matrix(1:12, 3, 4)
+x
+
+x[2:3, 2:4]
+```
+
+```{r}
+y <- matrix(1:16, 4, 4)
+y
+y[1,2]
+
+y[1:3, 3:4]
+colnames(y) <- c("yetunde", "tunde", "ye", "ena")
+y
+
+```
+
+```{r}
+file <- read.csv("~/Documents/R/Fertility (1).csv", sep=",")
+file
+```
+
+```{r}
+auto <- read.table("https://s3.amazonaws.com/assets.datacamp.com/blog_assets/test.txt", header = FALSE)
+head(auto[,2:3])
+
+```
+
+```{r}
+host <- "courses.csrrinzqubik.us-east-1.rds.amazonaws.com"
+connect <- dbConnect(RMySQL::MySQL(), dbname = "tweater",
+                     host = host, port = 3306, user = "student", password = "datacamp")
+```
+```{r}
+tables <- dbListTables(connect)
+tables
+```
+```{r}
+users <- dbReadTable(connect, "users")
+users
+```
+```{r}
+comments <- dbReadTable(connect, "comments")
+comments
+```
+
+```{r}
+write.csv(comments, "comments.csv")
+```
+
+```{r}
+host <- "car-simulation-station.c9az8e0qjbgo.us-east-1.rds.amazonaws.com"
+connect <- dbConnect(RMySQL::MySQL(), dbname = "car_simulation_station",
+                     host = host, port = 3306, user = "datacamp_user", password = "learn tabular data for fun and profit")
+```
+```{r}
+tables <- dbListTables(connect)
+tables
+```
+```{r}
+adhd_home_cleaned <- dbReadTable(connect, "adhd_home_cleaned")
+adhd_home_cleaned
+write.csv(adhd_home_cleaned, "adhd_home_cleaned.csv")
+```
+
+```{r}
+lifetime_scq_cleaned <- dbReadTable(connect, "lifetime_scq_cleaned")
+lifetime_scq_cleaned
+write.csv(lifetime_scq_cleaned, "lifetime_scq_cleaned.csv")
+```
+
+```{r}
+bcancer <- read.csv("https://raw.githubusercontent.com/mGalarnyk/Python_Tutorials/master/Kaggle/BreastCancerWisconsin/data/data.csv", header = TRUE)
+str(bcancer)
+```
+
+```{r}
+file <- read.csv("~/Documents/R/house.csv", sep = ",")
+file
+boxplot(Price~Status, data = file, main = "price")
+```
+
+```{r}
+file <- read.csv("~/Documents/R/house.csv", sep = ",")
+plot(file$SQFT, file$Price, xlab="SQFT", ylab="Price", main="ScatterPlot of Price and SQFT")
+```
+
+```{r}
+hist(file$Price, xlab = "Price", main = "Histogram of Price")
+```
+
+
+```{r}
+cancer_file <- read.csv("~/Documents/R/cancer.csv", sep = ",")
+cancer_file
+
+```
+
+```{r}
+hist(cancer_file$texture_mean, xlab = "Price", main = "Histogram of Price")
+```
+
+```{r}
+child_d <- read_sav("~/Documents/R/child_data.sav")
+boxplot(child_d$IQ~AGE, data = child_d, main = "IQ")
+```
+
+```{r}
+hist(child_d$AGE, xlab = "Age", main = "Histogram of Age")
+```
+
+```{r}
+library(readxl)
+library(tidyverse)
+```
+
+```{r}
+mbta1 <- read_excel("~/Documents/R/mbta.xlsx", sheet = 1, skip = 1)
+mbta1
+```
+
+```{r cars}
+mbta <- readxl::read_excel("~/Documents/R/mbta.xlsx", sheet = 1, skip = 1, range = cell_cols(2:60))
+mbta
+```
+
+```{r}
+mbta2 <- mbta %>% gather(`2007-01`:`2011-10`, key = "year", value = "passenger")
+mbta2
+```
+```{r}
+mbta2 <- mbta2 %>% separate(year, into = c("year", "month"))
+mbta2
+```
+```{r}
+mbta2 <- mbta2 %>% pivot_wider(names_from = mode, values_from = passenger)
+mbta2
+```
+```{r}
+mbta2 <- mbta2 %>% .[,c(1:2, 6:8)]
+mbta2
+```
+```{r}
+mbta2 <- mbta2 %>% gather(`Commuter Rail`:`Light Rail`, key = "rail_type", value = passengers)
+mbta2
+```
+```{r}
+library(hflights)
+data(hflights)
+View(hflights)
+```
+
+```{r}
+library(hflights)
+data("hflights")
+filter(hflights, Year == 2011, Month == 2, UniqueCarrier == "AA")
+```
+```{r}
+dest <- filter(hflights, Dest %in% c("FLL", "IAH"))
+dest
+```
+
+```{r}
+btw <- filter(hflights, between(Distance, 944, 1300))[, 3:14]
+btw
+```
+
+```{r}
+a <- filter(hflights, Year == 2011, Month == 4, UniqueCarrier == c("AA", "WN"))
+a
+```
+```{r}
+arr_1 <- arrange(hflights, Year, Month)
+arr_1
+```
+
+```{r}
+arr_1 <- arrange(hflights, desc(ArrDelay))
+arr_1
+```
+
+```{r}
+sel <- select(hflights, Year, Month, FlightNum, ArrTime)[1:4,]
+sel
+```
+```{r}
+rename_1 <- rename(hflights, tail_num = TailNum)[1:5,]
+rename_1
+```
+```{r}
+sel_2 <- select(hflights, starts_with("Dep"), starts_with("Arr"))
+sel_2
+```
+
+```{r}
+vars <- c( "Year", "Month", "DayofMonth", "ArrTime")
+sels <- select(hflights, one_of(vars))
+head(sels)[1:6,]
+```
+```{r}
+hflights%>%
+select(ends_with("Delay"), Distance, ArrTime) %>%
+mutate(time_gain = ArrDelay - DepDelay, speed = Distance/ArrTime * 60)
+```
+```{r}
+summarize(hflights, Delay = sum(DepDelay, na.rm = TRUE))
+```
+```{r}
+hflights%>%
+group_by(Year, Month, DayofMonth) %>%
+summarize(delay = mean(DepDelay, na.rm = TRUE))
+```
+```{r}
+hflights%>%
+group_by(Year, Month, DayofMonth) %>%
+summarize(DepDelay =n ())
+```
+
+Classwork
+```{r}
+analysis <- filter(hflights, C("ArrTime", "ActualElaspedTime", "FlightNum", "UniqueCarrier" == c("AA", "WN", "CO")))
+analysis
+```
+
+

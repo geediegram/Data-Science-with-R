@@ -1,0 +1,71 @@
+---
+title: "Dimentional Reduction Method"
+author: "Geediegram"
+date: "12/01/2022"
+output: pdf_document
+---
+
+```{r}
+data("USArrests")
+head(USArrests)
+```
+```{r}
+#calculate principal components
+results <- prcomp(USArrests, scale = TRUE)
+
+#reverse the signs
+results$rotation <- -1*results$rotation
+
+#display principal components
+results$rotation
+```
+```{r}
+#reverse the signs of the scores
+results$x <- -1*results$x
+
+#display the ﬁrst six scores
+head(results$x)
+```
+```{r}
+biplot(results, scale = 0)
+```
+```{r}
+#display states with highest murder rates in original dataset
+head(USArrests[order(-USArrests$Murder),])
+```
+```{r}
+#calculate total variance explained by each principal component
+results$sdev^2 / sum(results$sdev^2)
+```
+```{r}
+library( Rtsne)
+train_data <- read.csv("~/Documents/R/R Files/train.csv", sep = ",", header = T)
+train_data
+Labels<-train_data$label
+train_data$label<-as.factor(train_data$label)
+```
+
+```{r}
+# for plotting
+colors = rainbow(length(unique(train$label)))
+names(colors) = unique(train$label)
+```
+
+```{r}
+# Executing the algorithm on curated data
+tsne <- Rtsne(train[,-1], dims = 2, perplexity=30, verbose=TRUE, max_iter = 500)
+exeTimeTsne<- system.time(Rtsne(train[,-1], dims = 2, perplexity=30, verbose=TRUE, max_iter = 500))
+```
+```{r}
+## Plotting
+plot(tsne$Y, t='n', main="tsne")
+text(tsne$Y, labels=train$label, col=colors[train$label])
+```
+
+```{r}
+efina = read_sav(file.choose())
+
+```
+
+
+
